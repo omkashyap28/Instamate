@@ -1,10 +1,13 @@
 # pre-commit hook for Next.js projects
 
-# Format code
-bun run format
+# Linting
+bun run lint
 
 # Type check
 bun run typecheck
+
+# Format code
+bun run format
 
 # Build Next.js app
 bun run build
